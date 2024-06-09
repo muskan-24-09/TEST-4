@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    font-size: 15px;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: -170px;
+}
+.menu .options{
+    padding-left: 40px;
+}
+.intro{
+    background-image: url(https://wallpapercrafter.com/desktop/9812-palm-trees-treetops-dark-sky-twilight-4k.jpg);
+    background-size: cover;
+    background-position: center;
+    height:800px;
+    display: flex;
+    margin-bottom: 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+}
+.des h1{
+    color: white;
+    font-size: 35px;
+
+}
+
+.des p{
+    color: white;
+    font-size: 20px;
+}
+button{
+    width: 170px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid white;
+}
+.service{
+    background-color: rgb(248, 245, 245);
+    margin-bottom: 1px ;
+}
+.our-service{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.equipments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4px;
+    padding: 20px;
+}
+.equip{
+    border: 2px solid white;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    margin: 5px;
+    padding: 40px;
+}
+.equip img{
+    border: 1px solid white;
+    border-radius: 100px;
+    margin-bottom: 15px;
+
+}
+.equip h3{
+    margin-bottom: 20px;
+}
+.History{
+    display: flex;
+    margin-bottom: 1px;
+}
+.about-tag{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 245, 245);
+    padding: 20px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20x;
+    margin-bottom: 20px;
+}
+.aboutus h1{
+    margin-bottom: 5px;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.story h2{
+    margin-bottom: 15px;
+}
+.story li{
+    margin-left: 15px;
+}
+.Details{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(248, 245, 245);
+    padding: 20px;
+}
+.contact-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.contact-tag h1{
+    margin-bottom: 5px;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.address p{
+    padding-bottom: 15px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.user input{
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.icon{
+    display: flex;
+}
+.icon span{
+    padding-right: 10px;
+}
